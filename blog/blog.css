@@ -3,7 +3,7 @@
 
 
 
-
+/* Nav Bar */
 
 nav {
 
@@ -54,7 +54,7 @@ nav a:hover {
 
 
 
-
+/* Main Content */
 
 body{
     margin: 0;
@@ -180,6 +180,35 @@ header h1{
 .blogContent a:hover{
     text-decoration: underline;
 }
+
+/* footer styling */
+
+footer * {
+    display: inline;
+}
+
+.imgfooter {
+    opacity: 80%;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 80px;
+}
+
+footer {
+    background-color:transparent; /* had a color at #6D534F */ 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 80px;
+    /* box-shadow: 0 0 25px 0 rgb(185, 185, 185); */
+
+
+}
+
 
 
 /* Animations */
