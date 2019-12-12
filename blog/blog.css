@@ -15,6 +15,19 @@ nav {
     box-shadow: 0 0 25px 0 rgb(185, 185, 185);
     z-index: 9999;
 }
+
+.brand {
+    display: inline-flex;
+    margin: 5px 60px;
+    margin-right: 0px;
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ffffff;
+    -webkit-animation: text-shadow-pop-left 1.8s both;
+    animation: text-shadow-pop-left 1.8s both;
+}
+
 nav ul {
     display: inline-flex;
     justify-content: center;
@@ -35,10 +48,10 @@ nav li {
 }
 
 nav a {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Bad Script', cursive;
     color: #ffffff;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 nav li:last-child {
@@ -119,6 +132,7 @@ header h1{
 .singleBlog:hover{
     box-shadow: 0 2px 13px #ccc;
     transition: all .5s;
+    border-radius: 10%;
 }
 
 .singleBlog:hover img{
@@ -264,6 +278,31 @@ footer {
     100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+    }
+}
+
+@-webkit-keyframes text-shadow-pop-left {
+    0% {
+    text-shadow: 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    }
+    100% {
+    text-shadow: -1px 0 #000000, -2px 0 #000000, -3px 0 #000000, -4px 0 #000000, -5px 0 #000000, -6px 0 #000000, -7px 0 #000000, -8px 0 #000000;
+    -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+}
+@keyframes text-shadow-pop-left {
+    0% {
+    text-shadow: 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000, 0 0 #000000;
+    -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+    text-shadow: -1px 0 #000000, -2px 0 #000000, -3px 0 #000000, -4px 0 #000000, -5px 0 #000000, -6px 0 #000000, -7px 0 #000000, -8px 0 #000000;
+    -webkit-transform: translateX(8px);
+        transform: translateX(8px);
     }
 }
 
