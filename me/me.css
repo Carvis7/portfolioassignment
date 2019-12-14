@@ -79,32 +79,108 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-section{
+.gridbox-container {
+    display: grid;
+    grid-template-columns: 5% 70% 20% 5%;
+    grid-template-rows: 100%;
+}
+
+/*------------------------*/
+
+.gridboxcontainer2 {
+    display: grid;
+    grid-template-columns: 33.333vw 33.333vw 33.333vw;
+    grid-template-rows: 50% 50%;
+    grid-row-start: 2;
+    background-color: blueviolet;
+}
+
+section {
     padding: 70px 0;
     margin-top: 50px;
     background: #ffffff;
     text-align: center;
+    grid-column-start: 2;
 }
 
-.container{
+/* .section2 {
+    padding: 70px 0;
+    margin-top: 90px;
+    text-align: center;
+    grid-column-start: 3;
+    background-color: blueviolet;
+} */
+
+.container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
 
-header{
-    width: 70%;
-    margin: 0 auto;
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    padding-bottom: 40px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-style: solid;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+
+
 }
 
-header h1{
+.container4 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    grid-column-start: 2;
+    background-color: aquamarine;
+}
+
+
+header {
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(../images/gradientformeheaderbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+}
+
+.header2 {
+    font-family: 'Parisienne', cursive;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+}
+
+header h1 {
     font-family: 'Parisienne', cursive;
     margin: 0;
     font-size: 50px;
     color: #000000;
-    font-weight: 500;
+}
+
+.pskills {
+    text-align: center;
+    margin-bottom: -70px;
+    font-family: 'Bad Script', cursive;
+    font-size: 40px;
+    padding: 20px;
+
 }
 
 .meimg {
@@ -115,6 +191,19 @@ header h1{
     width: 50%;
 }
 
+.skillsimg {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 40%;
+}
+
+.skillsimg:hover {
+    -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
+	animation: pulsate-fwd 1s ease-in-out infinite both;
+}
 
 /* footer styling */
 
@@ -197,3 +286,56 @@ footer {
     }
 }
 
+@-webkit-keyframes pulsate-fwd {
+    0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    }
+    50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+    100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    }
+    50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+    100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    }
+}
+
+
+/* media queries */
+
+@media (max-width:500px) {
+.pskills {
+    font-size: 15px;
+}    
+
+header {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #6d534f;
+    border-radius: 15%;
+}
+
+header h1 {
+    font-family: 'Parisienne', cursive;
+    margin: 0;
+    font-size: 40px;
+    color: #000000;
+}
+
+}
