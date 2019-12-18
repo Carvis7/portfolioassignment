@@ -1,36 +1,10 @@
-README document
-
-General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
-
-A link (URL) to your published portfolio website
-A link to your GitHub repository (repo)
-Ensure the repo is accessible by your Educators
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-Slide deck
-
-You must present the plan for your website and submit your slides which will form the basis of a professional report.
-
-The presentation and associated Slide deck should include,
-
-A walk-through of your portfolio website and its features
-A walk-through of your design process and decisions
-A review of your development/build process including challenges, ethical issues, favourite parts, etc
-
----
-
 # Portfolio Assignment
 
 ##### Carly Davis
 
 ---
 
-- [My Portfolio Website](https://www.carvisdev.com "Carly Davis Portfolio")
+- [My Portfolio Website](https://www.carly-davis.netlify.com "Carly Davis Portfolio")
 - [My Portfolio GitHub Repository](https://github.com/Carvis7/portfolioassignment "GitHub repo for Portfolio Assignment")
 
 ---
@@ -69,6 +43,12 @@ For example:
 - There are 'hover' animations on various objects on my website including the Blog covers, 'My Skills' icons, and the social media icons on my Contact page.
 
 The main audience for my portfolio website is potential employers, coworkers/developers (for networking), and those looking for freelance services.
+
+The techstack I used is:
+* HTML5
+* CSS3
+
+and I deployed my website using Netlify with my GitHub Repository.
 
 ---
 
