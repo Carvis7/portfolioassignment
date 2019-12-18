@@ -74,12 +74,27 @@ The main audience for my portfolio website is potential employers, coworkers/dev
 
 ### Sitemap
 
-
+![sitemap](development-screenshots/sitemap.jpg)
 
 
 ---
 
 ### Development Screenshots
 
+##### Wireframes
 
+![devscreenshot](wireframes-and-mockups/wireframe1.jpeg)
+![devscreenshot](wireframes-and-mockups/wireframe2.jpeg)
+![devscreenshot](wireframes-and-mockups/wireframe3.jpeg)
+![devscreenshot](wireframes-and-mockups/wireframe4.jpeg)
+![devscreenshot](wireframes-and-mockups/wireframe5.jpeg)
+
+
+##### Development
+
+![devscreenshot](development-screenshots/devshot-1.png)
+![devscreenshot](development-screenshots/devshot-2.png)
+![devscreenshot](development-screenshots/devshot-3.png)
+![devscreenshot](development-screenshots/devshot-4.png)
+![devscreenshot](development-screenshots/devshot-5.png)
 
