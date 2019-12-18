@@ -6,7 +6,7 @@
 
 nav {
 
-    background-color: #6d534f;
+    background-color: #234146;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +25,8 @@ nav {
     font-size: 30px;
     color: #ffffff;
     -webkit-animation: text-shadow-pop-left 1.8s both;
-	animation: text-shadow-pop-left 1.8s both;
+    animation: text-shadow-pop-left 1.8s both;
+
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav li {
     display: inline-block;
     width: 40px;
     text-align: center;
-    border-left: 1px dotted #B1AEAC;
+    border-left: 1px dotted #ffffff;
 }
 
 nav a {
@@ -55,12 +56,12 @@ nav a {
 }
 
 nav li:last-child {
-    border-right: 1px dotted #B1AEAC;
+    border-right: 1px dotted #ffffff;
 }    
 
 
 nav a:hover {
-    color: bisque;
+    color: #779E8B;
 
 }
 
@@ -74,15 +75,15 @@ body{
 }
 
 .main-section{
-    background-image: url(../images/bubbletalk.png);
+    background-image: url(../images/mossywoods.png);
     background-repeat: no-repeat;
     background-size: 680px;
     background-position: center;
     padding: 70px 0;
     margin-top: 150px;
     text-align: center;
-    -webkit-animation: vibrate-2 0.8s linear infinite both;
-	animation: vibrate-2 0.8s linear infinite both;
+    -webkit-animation: vibrate-2 5.2s linear infinite both;
+	animation: vibrate-2 5.2s linear infinite both;
 }
 
 .container{
@@ -99,15 +100,16 @@ header{
 header h1{
     font-family: 'Parisienne', cursive;
     margin: 0;
-    margin-top: -70px;
+    margin-top: -60px;
     font-size: 100px;
-    color: #000000;
+    color: #a0a0a0;
     font-weight: 500;
 }
 
 p {
     margin-top: -10px;
     margin-left: 150px;
+    color: #8b8b8b;
 }
 
 

@@ -9,7 +9,8 @@
 
 nav {
 
-    background-color: #6d534f;
+    background-color: #234146
+    ;
     position: fixed;
     top: 0;
     left: 0;
@@ -151,7 +152,7 @@ header h1{
     width: 100%;
     color:#251915;
     padding: 10px 5px;
-    background: linear-gradient(0deg, rgba(203,127,120,1) 0%,rgba(255,255,255,0.4) 100%);
+    background: linear-gradient(0deg, #779E8B 0%,rgba(255,255,255,0.4) 100%);
     transition: all .5s;
 }
 
@@ -189,7 +190,7 @@ header h1{
 
 .blogContent .btn:hover{
     background: #ffffff;
-    color:#6D534F;
+    color:#234146;
     transition: all .5s;
     text-decoration: none;
 }

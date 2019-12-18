@@ -17,7 +17,7 @@ body{
 
 nav {
 
-    background-color: #6d534f;
+    background-color: #234146;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@ nav li {
     display: inline-block;
     width: 40px;
     text-align: center;
-    border-left: 1px dotted #B1AEAC;
+    border-left: 1px dotted #ffffff;
 }
 
 nav a {
@@ -67,12 +67,12 @@ nav a {
 }
 
 nav li:last-child {
-    border-right: 1px dotted #B1AEAC;
+    border-right: 1px dotted #ffffff;
 }    
 
 
 nav a:hover {
-    color: bisque;
+    color: #779E8B;
 
 }
 
@@ -128,7 +128,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #D87B75;
+    background-color: #234146;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -138,14 +138,14 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: rgb(177, 96, 90);
+    background-color: #0D141F;
 }
 
 .form-container {
     width: 50%;
     height: 50%;
     border-radius: 5px;
-    background-color:#B1AEAC;
+    background-color:#446862;
     padding: 20px;
     margin-left: 23%;
     margin-right: auto;
@@ -176,7 +176,7 @@ input[type=submit]:hover {
 }
 
 .social-media {
-    background-color: #D87B75;
+    background-color: #779E8B;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -192,7 +192,7 @@ input[type=submit]:hover {
     justify-items: center;
     padding: 18px;
     padding-bottom: 12px;
-    border-color: #6d534f;
+    border-color: #234146;
     border-style: solid;
     border-width: 3px;
 }

@@ -10,7 +10,7 @@
 
 nav {
 
-    background-color: #6d534f;
+    background-color: #234146;
     position: fixed;
     top: 0;
     left: 0;
@@ -120,7 +120,7 @@ p {
     opacity: 80%;
     width: 100%;
     overflow: hidden;
-    margin-left: 0;
+    margin-left: -8px;
     margin-bottom: 0;
     height: 80px;
 }
