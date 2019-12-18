@@ -142,10 +142,9 @@ section {
 
 .container4 {
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    grid-column-start: 2;
-    background-color: aquamarine;
+    text-align: center;
 }
 
 
@@ -204,6 +203,14 @@ header h1 {
     -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
 	animation: pulsate-fwd 1s ease-in-out infinite both;
 }
+
+.myprojects {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 30px;
+    margin: 30px 15px 110px 15px;
+}
+
 
 /* footer styling */
 
@@ -338,4 +345,8 @@ header h1 {
     color: #000000;
 }
 
+header {
+    background-image: none;
+    background-color: #ffffff;
+}
 }

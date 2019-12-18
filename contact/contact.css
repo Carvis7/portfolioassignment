@@ -342,6 +342,7 @@ footer {
         display: flex;
         justify-items: center;
         padding: 12px;
+        padding-right: 10px;
         padding-bottom: 6px;
         border-color: #6d534f;
         border-style: solid;
