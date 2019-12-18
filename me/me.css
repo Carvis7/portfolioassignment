@@ -342,6 +342,10 @@ footer {
     font-size: 15px;
 }    
 
+p {
+    color: black;
+}
+
 header {
     width: 70%;
     margin: 0 auto;
@@ -359,5 +363,12 @@ header h1 {
 header {
     background-image: none;
     background-color: #ffffff;
+}
+
+.myprojects {
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    margin: auto;
+    margin-bottom: 60px;
 }
 }
