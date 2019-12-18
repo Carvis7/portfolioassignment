@@ -115,11 +115,8 @@ p {
 
 /* footer styling */
 
-footer * {
-    display: inline;
-}
-
 .imgfooter {
+    position: relative;
     opacity: 80%;
     width: 100%;
     overflow: hidden;
@@ -133,13 +130,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-left: -8px;
+    margin-left: 0;
     margin-bottom: 0;
     height: 80px;
     /* box-shadow: 0 0 25px 0 rgb(185, 185, 185); */
 }
 
-
+.copyright {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;    
+    text-align: right;
+    margin-top: -30px;
+    margin-left: 15px;
+    font-size: 10px;
+}
 
 
 /* Animations */
