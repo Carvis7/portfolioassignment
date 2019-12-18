@@ -1,3 +1,6 @@
+
+
+/* Font Import */
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Cormorant+Garamond|Parisienne&display=swap');
 
 
@@ -99,9 +102,9 @@ header h1{
     font-weight: 500;
 }
 
-/* form */
+/* Form Styling */
 
-/* Style inputs with type="text", select elements and textareas */
+/*  */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -150,6 +153,8 @@ input[type=submit]:hover {
     margin-top: -60px;
 }
 
+/* Social Media Styling */
+
 .reach-out-grid {
     display: flex;
     flex-direction: row;
@@ -192,15 +197,18 @@ input[type=submit]:hover {
     border-width: 3px;
 }
 
+/* For the individual social media icons */
+
 .icon {
     height: 35px;
     width: 35px;
 }
 
-.icon:hover {
+.icon:hover { /*pulsing animation*/
     -webkit-animation: pulsate-fwd 0.8s ease-in-out infinite both;
 	animation: pulsate-fwd 0.8s ease-in-out infinite both;
 }
+
 
 /* footer styling */
 
@@ -335,6 +343,9 @@ footer {
         justify-items: center;
         padding: 12px;
         padding-bottom: 6px;
+        border-color: #6d534f;
+        border-style: solid;
+        border-width: 1.5px;    
     }
     
 }
