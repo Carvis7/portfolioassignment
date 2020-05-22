@@ -214,12 +214,12 @@ input[type=submit]:hover {
 
 .imgfooter {
     position: relative;
-    opacity: 80%;
+    opacity: 100%;
     width: 100%;
     overflow: hidden;
     margin-left: 0;
     margin-bottom: 0;
-    height: 80px;
+    height: 100px;
 }
 
 footer {
@@ -229,7 +229,7 @@ footer {
     width: 100%;
     margin-left: 0;
     margin-bottom: 0;
-    height: 80px;
+    height: 100px;
     /* box-shadow: 0 0 25px 0 rgb(185, 185, 185); */
 }
 
